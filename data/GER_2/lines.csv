@@ -1,0 +1,2 @@
+tech,line,node_start,node_end,reactance,resistance,power_ex,power_lim,circuits,voltage,length,lat_start,lon_start,lat_end,lon_end
+trans,line01,dena21,dena81,21.04,3.833,4150,50000,8,380,56.4,54.11,9.92,53.61,10.04
