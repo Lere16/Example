@@ -134,7 +134,7 @@ def run_opt_main(ts_data, opt_data, config, optimizer):
 
     #e25=Equation(container=cep, name="e25", domain=[tech_ex,"ex",node])
     #e25[tech_ex, "ex", node]=CAP[tech_ex, 'ex', node]==EX[tech_ex,node]/scale[':CAP']
-    CAP.lo[tech_ex, "ex", node]==EX[tech_ex,node]/scale[':CAP']
+    CAP.fx[tech_ex, "ex", node]==EX[tech_ex,node]/scale[':CAP']
     
     if config["demand"]:
         
